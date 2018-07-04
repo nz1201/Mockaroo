@@ -149,7 +149,7 @@ public class MockarooDataValidation {
 	}
 	@Test(priority=14)//16
 	public void download() {
-//		driver.findElement(By.id("download")).click();
+		driver.findElement(By.id("download")).click();
 	}
 	@Test(priority=15)//17
 	public void buffer() throws Exception  {
